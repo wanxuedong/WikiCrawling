@@ -241,13 +241,13 @@ excelPath = 'excel/countrys.xls'
 tableName = '行政区划'
 
 # 维基百科抓取的数据本地文件记录
-wikiFile = open('record/wiki.txt', mode='w')
+wikiFile = open('record/wiki.txt', mode='w', encoding='utf-8')
 
 # 抓取过程的全部记录信息
-logFile = open('record/log.txt', mode='w')
+logFile = open('record/log.txt', mode='w', encoding='utf-8')
 
 # 抓取过程的全部错误记录信息
-errorFile = open('record/error.txt', mode='w')
+errorFile = open('record/error.txt', mode='w', encoding='utf-8')
 
 # 维基百科网络地址
 wikiUrl = 'https://ww.wiki.fallingwaterdesignbuild.com/wiki/'
